@@ -14,38 +14,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Middleware CORS
 app.use(cors());
 
-// Import AI
-require('./ai/ai4chat')(app);
-require('./ai/Aianswer')(app);
-require('./ai/Blackbox')(app);
-require('./ai/LuminAI')(app);
-require('./ai/zhiziai')(app);
-require('./ai/Thinkai')(app);
-require('./ai/ChristyAi')(app);
-require('./ai/joko')(app);
-
-// Import Berita
-require('./berita/liputan6')(app);
-
-// Import Downloader 
-require('./downloader/tiktok')(app);
-require('./downloader/mp4')(app);
-require('./downloader/mediafire')(app);
-
-// Import Search
-require('./search/goodread')(app);
-require('./search/ypia')(app);
-require('./search/rumaysho')(app);
-require('./search/surah')(app);
-require('./search/jadwalsholat')(app);
-require('./search/playstore')(app);
-require('./search/spotify')(app);
-
-// Import Tools
-require('./tools/morse')(app);
-require('./tools/totext')(app);
-require('./tools/ttstalk')(app);
-require('./tools/tekstoimg')(app);
+// Import Oredr Kuota
+require('./api/createpayment')(app);
+require('./api/cekstatus')(app);
+require('./api/ceksaldo')(app);
 
 // Full Kode Di Github Saya : https://github.com/YanzOffc/
 
