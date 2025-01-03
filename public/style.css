@@ -1,0 +1,84 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Tata letak vertikal */
+    align-items: center; /* Elemen tetap di tengah horizontal */
+    min-height: 100vh; 
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem; /* Tambahkan jarak antara container dan copyright */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+h1 span {
+    color: #4b9ce2;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 2rem;
+}
+
+.endpoints {
+    background-color: #202020;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 87%;
+    margin: 0 auto;
+}
+
+
+.endpoint {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+
+.method {
+    font-weight: bold;
+    color: #4b9ce2;
+}
+
+.description {
+    flex: 1;
+    margin-left: 1rem;
+    color: #ddd;
+}
+
+.try-btn {
+    background-color: #4b9ce2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.try-btn:hover {
+    background-color: #3a7bbd;
+}
+
+h2:last-of-type {
+    margin-top: 1rem; /* Sesuaikan jarak antara kolom endpoint dan copyright */
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+}
