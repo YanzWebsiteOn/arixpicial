@@ -7,7 +7,7 @@ Penyedia Scraper
 
 Pengguna Bot Yang Selalu Support
 
-📝 Credit : Lenwy
+📝 Credit : ArixOffical
 
 🥇 Pengembang : Yanz Official
 
